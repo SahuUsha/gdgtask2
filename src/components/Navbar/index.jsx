@@ -13,7 +13,7 @@ const Navbar = () => {
   // const imagePath = './assets/images/headerlogo.jpg'
 
   return (
-   <nav className={theme==='dark'? 'bg-gray-800 text-white border-b-2 w-full  items-center flex lg:flex-row  flex-wrap flex-col justify-between  shadow-gray-300 shadow-md p-6 ' : 'bg-white   w-full border-2 items-center flex lg:flex-row flex-col justify-between text-neutral-500 shadow-gray-200 shadow-md p-6 '}>
+   <nav className={theme==='dark'? 'bg-gray-800 text-white border-b-2 w-full  items-center flex lg:flex-row  flex-wrap flex-col justify-between  shadow-gray-300 shadow-md p-6 ' : 'bg-white   w-full border-2 items-center flex flex-wrap lg:flex-row flex-col justify-between text-neutral-500 shadow-gray-200 shadow-md p-6 '}>
   {/* // <nav className="bg-white dark:bg-gray-900 text-black dark:text-white p-4"> */}
     <div className='items-center lg:ml-7  flex'>
   
